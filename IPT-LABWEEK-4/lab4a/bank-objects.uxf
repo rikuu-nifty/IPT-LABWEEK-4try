@@ -1,0 +1,53 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>344</x><y>0</y><w>144</w><h>104</h></coordinates><panel_attributes>Bank
+--
++code
++address
+--
++manages()
++maintains()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>40</y><w>208</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;240;10;240;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>592</x><y>104</y><w>144</w><h>104</h></coordinates><panel_attributes>ATM
+--
++location
++managedby
+--
++identifies()
++transaction()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>144</y><w>144</w><h>112</h></coordinates><panel_attributes>Customer
+--
++name
++address
++dob
++card number
++pin
+
+--
++verifyPassword()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>296</x><y>176</y><w>224</w><h>32</h></coordinates><panel_attributes></panel_attributes><additional_attributes>260;20;10;20;260;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>344</x><y>248</y><w>144</w><h>112</h></coordinates><panel_attributes>Account
+--
++number
++balance
+--
++deposit()
++withdraw()
+createTransaction()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>408</x><y>96</y><w>24</w><h>168</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>496</x><y>152</y><w>24</w><h>56</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>208</x><y>248</y><w>152</w><h>88</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;90;170;90</additional_attributes></element><element><id>Text</id><coordinates><x>184</x><y>264</y><w>24</w><h>16</h></coordinates><panel_attributes>Has
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>216</x><y>264</y><w>16</w><h>16</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>232</x><y>288</y><w>24</w><h>24</h></coordinates><panel_attributes>1,2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>496</x><y>264</y><w>24</w><h>24</h></coordinates><panel_attributes>*
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>304</y><w>168</w><h>32</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>752</x><y>232</y><w>144</w><h>128</h></coordinates><panel_attributes>ATM Transaction
+--
++transaction id
++date
++type
++amount
++post balance
+
+--
++modifies()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>640</x><y>272</y><w>104</w><h>24</h></coordinates><panel_attributes> Account Transaction</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>624</x><y>288</y><w>24</w><h>48</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>624</x><y>280</y><w>144</w><h>32</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Text</id><coordinates><x>496</x><y>328</y><w>16</w><h>16</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>192</x><y>448</y><w>144</w><h>72</h></coordinates><panel_attributes>Current Account
+--
++account no.
++balance
+--
++withdraw()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>448</y><w>144</w><h>72</h></coordinates><panel_attributes>Saving Account
+--
++account no.
++balance
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>336</x><y>464</y><w>16</w><h>16</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>464</x><y>488</y><w>16</w><h>16</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>392</y><w>336</w><h>32</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;400;20</additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>400</y><w>24</w><h>64</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>568</x><y>400</y><w>24</w><h>64</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>328</x><y>472</y><w>168</w><h>32</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Text</id><coordinates><x>392</x><y>464</y><w>104</w><h>24</h></coordinates><panel_attributes>Savings-Checking</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>408</x><y>352</y><w>24</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>496</x><y>152</y><w>112</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>120;10;10;10</additional_attributes></element></diagram>
